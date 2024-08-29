@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="lbNome" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbCnpj" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbEndereco" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbTelefone" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbEmail" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbNomeContato" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbTiposervico" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbCondicoesdepagamento" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                          <Component id="bntmostrar" min="-2" max="-2" attributes="0"/>
+                          <Component id="lbPrazoentrega" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="txttNome" max="32767" attributes="0"/>
+                          <Component id="txtfCnpj" max="32767" attributes="0"/>
+                          <Component id="txtfEndereco" max="32767" attributes="0"/>
+                          <Component id="txtfTelefone" max="32767" attributes="0"/>
+                          <Component id="txtfEmail" max="32767" attributes="0"/>
+                          <Component id="txtfNomeContato" max="32767" attributes="0"/>
+                          <Component id="txtfTiposervico" max="32767" attributes="0"/>
+                          <Component id="txtfCondicoesdepagamento" max="32767" attributes="0"/>
+                          <Component id="txtfPrazoentrga" pref="200" max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <Component id="btnlimpar" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="92" max="-2" attributes="0"/>
+                          <Component id="btngravar" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace pref="115" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lbNome" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txttNome" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="lbCnpj" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                          <Component id="txtfCnpj" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Component id="lbEndereco" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtfEndereco" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lbTelefone" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtfTelefone" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="lbEmail" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtfEmail" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="lbNomeContato" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtfNomeContato" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lbTiposervico" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtfTiposervico" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lbCondicoesdepagamento" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtfCondicoesdepagamento" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lbPrazoentrega" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtfPrazoentrga" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="85" max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="bntmostrar" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="btnlimpar" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="btngravar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="lbNome">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Nome da Empresa "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txttNome">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lbCnpj">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Cnpj"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtfCnpj">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lbEndereco">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Endere&#xe7;o"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtfEndereco">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lbTelefone">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Telefone"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtfTelefone">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lbEmail">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Email"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtfEmail">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lbNomeContato">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Nome do contato"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtfNomeContato">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lbTiposervico">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Tipo de Produto/Servi&#xe7;o"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtfTiposervico">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lbCondicoesdepagamento">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Condi&#xe7;&#xf5;es de pagamento"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtfCondicoesdepagamento">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lbPrazoentrega">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Prazo de entrega"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtfPrazoentrga">
+        </Component>
+        <Component class="javax.swing.JButton" name="bntmostrar">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="mostrar"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bntmostrarActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnlimpar">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="limpar"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="btngravar">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="gravar"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
